@@ -8,3 +8,7 @@ var result=arr.filter(function(value){
     return value%3==0
 })
 console.log(result)
+var result1=arr.map(function(value){
+    return value*value;
+})
+console.log(result1)
